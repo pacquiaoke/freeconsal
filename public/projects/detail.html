@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<title>案件詳細｜フリーランスコンサルタントのための案件マッチングサイト【フリーコンサルワークス】</title>
+	<link rel="preload" href="../fonts/NotoSansCJKjp-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="../fonts/NotoSansCJKjp-Medium.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="../fonts/NotoSansCJKjp-Bold.woff2" as="font" type="font/woff2" crossorigin>
+	<meta name="description" content="高単価・リモート・長期から短期まで幅広い案件を網羅！フリーランスコンサルタントのための案件マッチングサイト">
+	<meta name="keywords" content="高単価,案件,マッチング,フリーコンサルタント">
+	<meta property="og:title" content="案件詳細｜フリーランスコンサルタントのための案件マッチングサイト【フリーコンサルワークス】" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://サイトURL/projects/detail.html" />
+	<meta property="og:site_name" content="案件詳細｜フリーランスコンサルタントのための案件マッチングサイト【フリーコンサルワークス】" />
+	<meta property="og:description" content="高単価・リモート・長期から短期まで幅広い案件を網羅！フリーランスコンサルタントのための案件マッチングサイト" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="案件詳細｜フリーランスコンサルタントのための案件マッチングサイト【フリーコンサルワークス】" />
+	<meta name="twitter:description" content="高単価・リモート・長期から短期まで幅広い案件を網羅！フリーランスコンサルタントのための案件マッチングサイト" />
+	<meta name="twitter:image" content="https://サイトURL/img/share.png" />
+	<meta itemprop="image" content="https://サイトURL/img/share.png" />
+	<link rel="shortcut icon" href="../img/favicon.ico">
+	<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../js/slick/slick.css">
+	<link rel="stylesheet" href="../css/projects.css">
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script>
+		const setFillHeight = () => {
+			const vh = window.innerHeight * 0.01;
+			document.documentElement.style.setProperty("--vh", `${vh}px`);
+		};
+		let vw = window.innerWidth;
+		window.addEventListener("resize", () => {
+			if (vw === window.innerWidth) {
+				return;
+			}
+			vw = window.innerWidth;
+			setFillHeight();
+		});
+		setFillHeight();
+		$(window).on("load", function() {
+			$("#loading").delay(100).fadeOut(400);
+		});
+	</script>
+</head>
+
+<body>
+	<div class="wrapper" id="top">
+		<div class="loading_fv" id="loading"></div>
+		<div class="modal_overlay"></div>
+		<header class="header" id="header">
+			<div class="header_inner">
+				<div class="header_logo">
+					<a href="../">
+						<img src="../img/common/header_logo.svg" alt="フリーコンサルワークス" width="217" height="32" loading="lazy"></a>
+				</div>
+				<nav class="header_nav" id="header_nav">
+					<div class="nav_01">
+						<div class="nav_wrap">
+							<ul>
+								<li>
+									<a href="../beginner/">初めての方へ</a>
+								</li>
+								<li>
+									<a href="../projects/" class="current">案件を探す</a>
+								</li>
+								<li>
+									<a href="../case/">ご利用者様の声</a>
+								</li>
+								<li>
+									<a href="../faq/">よくある質問</a>
+								</li>
+								<li>
+									<a href="../columns/">お役立ちコラム</a>
+								</li>
+							</ul>
+						</div><!-- /.header_nav -->
+					</div><!-- /.nav_01 -->
+					<div class="nav_02">
+						<div class="nav_wrap">
+							<p class="nav_tit">職種から探す</p>
+							<ul class="nav_list">
+								<li><a href="../projects/">一般事務（999）</a></li>
+								<li><a href="../projects/">一般事務（999）</a></li>
+								<li><a href="../projects/">一般事務（999）</a></li>
+								<li><a href="../projects/">一般事務（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">広報（999）</a></li>
+								<li><a href="../projects/">広報（999）</a></li>
+								<li><a href="../projects/">広報（999）</a></li>
+								<li><a href="../projects/">広報（999）</a></li>
+							</ul>
+						</div>
+						<div class="nav_wrap">
+							<p class="nav_tit">業界から探す</p>
+							<ul class="nav_list">
+								<li><a href="../projects/">小売/物流（999）</a></li>
+								<li><a href="../projects/">公共（999）</a></li>
+								<li><a href="../projects/">医療/福祉（999）</a></li>
+								<li><a href="../projects/">通信（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+							</ul>
+						</div>
+						<div class="nav_wrap">
+							<p class="nav_tit">勤務地から探す</p>
+							<ul class="nav_list">
+								<li><a href="../projects/">小売/物流（999）</a></li>
+								<li><a href="../projects/">公共（999）</a></li>
+								<li><a href="../projects/">医療/福祉（999）</a></li>
+								<li><a href="../projects/">通信（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+							</ul>
+						</div>
+						<div class="nav_wrap">
+							<p class="nav_tit">こだわり条件から探す</p>
+							<ul class="nav_list">
+								<li><a href="../projects/">小売/物流（999）</a></li>
+								<li><a href="../projects/">公共（999）</a></li>
+								<li><a href="../projects/">医療/福祉（999）</a></li>
+								<li><a href="../projects/">通信（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">総務・人事・労務（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+								<li><a href="../projects/">法務・知財（999）</a></li>
+							</ul>
+						</div>
+					</div><!-- /.nav_02 -->
+				</nav><!-- /.header_nav -->
+				<div class="header_btn">
+					<div class="txt_wrap">
+						<div class="link_txt"><a href="..#" target="_blank">プロフェッショナル人材をお探しの<br class='vsp960'>企業様はこちら</a></div>
+					</div>
+					<div class="btn_wrap">
+						<div class="link_btn btn_white vpc960"><a href="../login/">ログイン</a></div>
+						<div class="link_btn btn_blue vpc960"><a href="../membership/">無料登録</a></div>
+						<div class="link_btn btn_white vsp960"><a href="../projects/">案件検索</a></div>
+						<div class="link_btn btn_grade_blue vsp960"><a href="../membership/">会員登録</a></div>
+					</div><!-- /.btn_wrap -->
+				</div>
+				<div class="header_menu" id="header_menu"><span></span></div>
+			</div><!-- /.header_inner -->
+		</header>
+		<nav class="breadcrumbs">
+			<ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+					<a itemprop="item" title="フリーランスコンサルタントのための案件マッチングサイト【フリーコンサルワークス】" href="../" class="home"><span itemprop="name">TOP</span></a>
+					<meta itemprop="position" content="1">
+				</li>
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+					<a itemprop="item" title="案件一覧" href="../projects/" class=""><span itemprop="name">案件一覧</span></a>
+					<meta itemprop="position" content="2">
+				</li>
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+					<a itemprop="item" title="案件詳細" href="../projects/detail.html" class="" aria-current="page"><span itemprop="name">案件詳細</span></a>
+					<meta itemprop="position" content="3">
+				</li>
+			</ul>
+		</nav>
+		<div class="content projects_detail">
+			<div class="content_side">
+				<form action="../projects/">
+					<div class="search_form js_search_modal">
+						<div class="search_modal_overlay js_search_modal_close"></div>
+						<div class="search_modal_close js_search_modal_close"><span>閉じる</span></div>
+						<div class="search_modal_box">
+							<div class="box_head">検索条件設定</div>
+							<div class="box_body">
+								<div class="form_wrap">
+									<div class="form_label">フリーワード検索</div>
+									<div class="form_input"><input type="text" placeholder="フリーワードを入力"></div>
+								</div><!-- /.form_wrap -->
+								<div class="form_wrap">
+									<div class="form_label">職種</div>
+									<div class="form_input select">
+										<select name="" id="">
+											<option value="" selected>職種を選択してください</option>
+											<option value="1">一般事務（999）</option>
+											<option value="2">一般事務（999）</option>
+											<option value="3">一般事務（999）</option>
+											<option value="4">一般事務（999）</option>
+											<option value="5">営業事務・営業アシスタント（999）</option>
+											<option value="6">営業事務・営業アシスタント（999）</option>
+											<option value="7">営業事務・営業アシスタント（999）</option>
+											<option value="8">営業事務・営業アシスタント（999）</option>
+											<option value="9">総務・人事・労務（999）</option>
+											<option value="10">総務・人事・労務（999）</option>
+											<option value="11">総務・人事・労務（999）</option>
+											<option value="12">総務・人事・労務（999）</option>
+											<option value="13">法務・知財（999）</option>
+											<option value="14">法務・知財（999）</option>
+											<option value="15">法務・知財（999）</option>
+											<option value="16">法務・知財（999）</option>
+											<option value="17">広報（999）</option>
+											<option value="18">広報（999）</option>
+											<option value="19">広報（999）</option>
+											<option value="20">広報（999）</option>
+											<option value="21">庶務（999）</option>
+											<option value="22">庶務（999）</option>
+											<option value="23">庶務（999）</option>
+											<option value="24">庶務（999）</option>
+											<option value="25">受付(事務系)（999）</option>
+											<option value="26">受付(事務系)（999）</option>
+											<option value="27">受付(事務系)（999）</option>
+											<option value="28">受付(事務系)（999）</option>
+											<option value="29">経理・財務（999）</option>
+											<option value="30">経理・財務（999）</option>
+											<option value="31">経理・財務（999）</option>
+											<option value="32">経理・財務（999）</option>
+										</select>
+									</div>
+								</div><!-- /.form_wrap -->
+								<div class="form_wrap">
+									<div class="form_label">業界</div>
+									<div class="form_input select">
+										<select name="" id="">
+											<option value="" selected>業界を選択してください</option>
+											<option value="1">小売/物流（999）</option>
+											<option value="2">公共（999）</option>
+											<option value="3">医療/福祉（999）</option>
+											<option value="4">通信（999）</option>
+											<option value="5">営業事務・営業アシスタント（999）</option>
+											<option value="6">営業事務・営業アシスタント（999）</option>
+											<option value="7">営業事務・営業アシスタント（999）</option>
+											<option value="8">営業事務・営業アシスタント（999）</option>
+											<option value="9">総務・人事・労務（999）</option>
+											<option value="10">総務・人事・労務（999）</option>
+											<option value="11">総務・人事・労務（999）</option>
+											<option value="12">総務・人事・労務（999）</option>
+											<option value="13">法務・知財（999）</option>
+											<option value="14">法務・知財（999）</option>
+											<option value="15">法務・知財（999）</option>
+											<option value="16">法務・知財（999）</option>
+										</select>
+									</div>
+								</div><!-- /.form_wrap -->
+								<div class="form_wrap">
+									<div class="form_label">勤務地</div>
+									<div class="form_input select">
+										<select name="" id="">
+											<option value="" selected>勤務地を選択してください</option>
+											<option value="1">小売/物流（999）</option>
+											<option value="2">公共（999）</option>
+											<option value="3">医療/福祉（999）</option>
+											<option value="4">通信（999）</option>
+											<option value="5">営業事務・営業アシスタント（999）</option>
+											<option value="6">営業事務・営業アシスタント（999）</option>
+											<option value="7">営業事務・営業アシスタント（999）</option>
+											<option value="8">営業事務・営業アシスタント（999）</option>
+											<option value="9">総務・人事・労務（999）</option>
+											<option value="10">総務・人事・労務（999）</option>
+											<option value="11">総務・人事・労務（999）</option>
+											<option value="12">総務・人事・労務（999）</option>
+											<option value="13">法務・知財（999）</option>
+											<option value="14">法務・知財（999）</option>
+											<option value="15">法務・知財（999）</option>
+											<option value="16">法務・知財（999）</option>
+										</select>
+									</div>
+								</div><!-- /.form_wrap -->
+								<div class="form_title"><span>条件</span></div>
+								<div class="form_wrap">
+									<div class="form_label">報酬金額</div>
+									<div class="form_input select">
+										<select name="" id="">
+											<option value="" selected>報酬を選択してください</option>
+											<option value="1">報酬</option>
+											<option value="2">報酬</option>
+											<option value="3">報酬</option>
+										</select>
+									</div>
+								</div><!-- /.form_wrap -->
+								<div class="form_wrap">
+									<div class="form_label">稼働率</div>
+									<div class="form_input select">
+										<select name="" id="">
+											<option value="" selected>稼働率を選択してください</option>
+											<option value="1">稼働率</option>
+											<option value="2">稼働率</option>
+											<option value="3">稼働率</option>
+										</select>
+									</div>
+								</div><!-- /.form_wrap -->
+								<div class="form_wrap">
+									<div class="form_label">期間</div>
+									<div class="form_input select">
+										<select name="" id="">
+											<option value="" selected>期間を選択してください</option>
+											<option value="1">期間</option>
+											<option value="2">期間</option>
+											<option value="3">期間</option>
+										</select>
+									</div>
+								</div><!-- /.form_wrap -->
+								<div class="form_wrap">
+									<div class="form_label">リモートワーク</div>
+									<div class="form_input select">
+										<select name="" id="">
+											<option value="" selected>選択してください</option>
+											<option value="1">リモートワーク</option>
+											<option value="2">リモートワーク</option>
+											<option value="3">リモートワーク</option>
+										</select>
+									</div>
+								</div><!-- /.form_wrap -->
+							</div><!-- /.box_body -->
+							<div class="box_foot">
+								<div class="form_btn">
+									<button type="submit" class="btn_submit"><span class="vpc960">選択した条件で検索</span><span class="vsp960">検索する</span></button>
+									<button type="reset" class="btn_clear"><span>条件をクリア</span></button>
+									<button type="button" class="btn_cansel js_search_modal_close"><span>キャンセル</span></button>
+								</div><!-- /.form_btn -->
+							</div><!-- /.box_foot -->
+						</div><!-- /.modal_box -->
+					</div>
+				</form>
+			</div>
+			<div class="content_main">
+				<div class="article">
+					<section class="item_box">
+						<div class="box_head">
+							<h2 class="project_name"><span>【コンサル/PM】財務会計領域の要件定義等、PJTの上流部分をけん引</span></h2>
+						</div><!-- /.box_head -->
+						<div class="box_detail">
+							<figure class="project_img">
+								<picture>
+									<source media="(max-width: 600px)" srcset="../img/projects/project_img_00_sp.jpg" width="590" height="250" />
+									<img src="../img/projects/project_img_00_pc.jpg" width="740" height="260" loading="lazy" alt="" />
+								</picture>
+							</figure>
+							<ul class="project_info info_01">
+								<li class="reward">
+									<div>月額報酬</div>
+									<p>～<b>700,000</b>円／月</p>
+								</li>
+								<li>
+									<div>職種</div>
+									<p>PM/PMO（アプリ）</p>
+								</li>
+								<li>
+									<div>勤務地</div>
+									<p>浜松町（東京都）</p>
+								</li>
+								<li>
+									<div>業界</div>
+									<p>IT</p>
+								</li>
+							</ul><!-- /.project_info -->
+							<ul class="project_info info_02">
+								<li>
+									<div>リモート</div>
+									<p>リモートワーク可</p>
+								</li>
+								<li>
+									<div>勤務期間</div>
+									<p>2022/12～2023/12</p>
+								</li>
+								<li>
+									<div>稼働率</div>
+									<p>週3日／週4日／週5日</p>
+								</li>
+								<li class="comment">
+									<div>業務内容</div>
+									<p>SAP刷新PJTの要件定義をメインで担っていただき、PJTをけん引していただきます。<br>財務会計領域がメインの為、SAPより財務会計のご知見を生かしていただける領域です。<br>必要に応じて、支援先企業の社員も一緒に要件定義のノウハウをレクチャーいただくことも検討しています。</p>
+								</li>
+								<li class="comment">
+									<div>案件概要</div>
+									<p>ERP導入プログラムにおける業務要件定義支援。<br>進捗、予算管理、課題状況の収集、予測と対策の考案などを担っていただきます。</p>
+								</li>
+							</ul><!-- /.project_info -->
+							<div class="project_btns">
+								<div class="link_btn btn_entry"><a href="../membership/">応募する</a></div>
+							</div><!-- /.project_btns -->
+						</div><!-- /.box_detail -->
+					</section>
+					<div class="member_box">
+						<p>サイト上では公開案件のみご紹介しています。<br>非公開案件も多数あるため、まずは無料登録からお気軽にお問合せください。</p>
+						<div class="link_btn"><a href="../membership/">無料登録</a></div>
+					</div><!-- /.member_box -->
+				</div><!-- /.article -->
+				<section class="sec recom_article">
+					<h2 class="sec_title"><span>関連求人</span></h2>
+					<div class="recom_wrap slide_container">
+						<div class="slide_wrapper js_pc_box_slider">
+							<div class="project_box slide">
+								<a href="../projects/detail.html" class="box_inner">
+									<figure class="box_img"><img data-lazy="../img/projects/project_img_01.jpg" alt="" width="550" height="352" loading="lazy"></figure>
+									<div class="box_txt">
+										<div class="tag_wrap tags_01">
+											<i class="tag">DX事業戦略</i>
+											<i class="tag">リモート可</i>
+										</div>
+										<h3 class="box_tit"><span>大手HWメーカーのグローバル全拠点におけるDX推進支援</span></h3>
+										<div class="tag_wrap tags_02">
+											<i class="tag">メディア運営</i>
+											<i class="tag">編集</i>
+											<i class="tag">ライティング</i>
+										</div>
+										<ul class="info_wrap">
+											<li>
+												<p>稼働：週3（フルリモート+会議）</p>
+											</li>
+											<li>
+												<p>報酬：45万円/月</p>
+											</li>
+										</ul>
+									</div><!-- /.box_txt -->
+								</a><!-- /.box_inner -->
+							</div>
+							<div class="project_box slide">
+								<a href="../projects/detail.html" class="box_inner">
+									<figure class="box_img"><img data-lazy="../img/projects/project_img_02.jpg" alt="" width="550" height="352" loading="lazy"></figure>
+									<div class="box_txt">
+										<div class="tag_wrap tags_01">
+											<i class="tag">DX事業戦略</i>
+											<i class="tag">リモート可</i>
+										</div>
+										<h3 class="box_tit"><span>グローバル全拠点におけるDX推進支援</span></h3>
+										<div class="tag_wrap tags_02">
+											<i class="tag">メディア運営</i>
+											<i class="tag">編集</i>
+											<i class="tag">ライティング</i>
+										</div>
+										<ul class="info_wrap">
+											<li>
+												<p>稼働：週3（フルリモート+会議）</p>
+											</li>
+											<li>
+												<p>報酬：45万円/月</p>
+											</li>
+										</ul>
+									</div><!-- /.box_txt -->
+								</a><!-- /.box_inner -->
+							</div>
+							<div class="project_box slide">
+								<a href="../projects/detail.html" class="box_inner">
+									<figure class="box_img"><img data-lazy="../img/projects/project_img_03.jpg" alt="" width="550" height="352" loading="lazy"></figure>
+									<div class="box_txt">
+										<div class="tag_wrap tags_01">
+											<i class="tag">DX事業戦略</i>
+											<i class="tag">リモート可</i>
+										</div>
+										<h3 class="box_tit"><span>大手HWメーカーのグローバル全拠点におけるDX推進支援</span></h3>
+										<div class="tag_wrap tags_02">
+											<i class="tag">メディア運営</i>
+											<i class="tag">編集</i>
+											<i class="tag">ライティング</i>
+										</div>
+										<ul class="info_wrap">
+											<li>
+												<p>稼働：週3（フルリモート+会議）</p>
+											</li>
+											<li>
+												<p>報酬：45万円/月</p>
+											</li>
+										</ul>
+									</div><!-- /.box_txt -->
+								</a><!-- /.box_inner -->
+							</div>
+							<div class="project_box slide">
+								<a href="../projects/detail.html" class="box_inner">
+									<figure class="box_img"><img data-lazy="../img/top/project_img_04.jpg" alt="" width="550" height="352" loading="lazy"></figure>
+									<div class="box_txt">
+										<div class="tag_wrap tags_01">
+											<i class="tag">DX事業戦略</i>
+											<i class="tag">リモート可</i>
+										</div>
+										<h3 class="box_tit"><span>大手HWメーカー</span></h3>
+										<div class="tag_wrap tags_02">
+											<i class="tag">メディア運営</i>
+											<i class="tag">編集</i>
+											<i class="tag">ライティング</i>
+										</div>
+										<ul class="info_wrap">
+											<li>
+												<p>稼働：週3（フルリモート+会議）</p>
+											</li>
+											<li>
+												<p>報酬：45万円/月</p>
+											</li>
+										</ul>
+									</div><!-- /.box_txt -->
+								</a><!-- /.box_inner -->
+							</div>
+							<div class="project_box slide">
+								<a href="../projects/detail.html" class="box_inner">
+									<figure class="box_img"><img data-lazy="../img/projects/project_img_01.jpg" alt="" width="550" height="352" loading="lazy"></figure>
+									<div class="box_txt">
+										<div class="tag_wrap tags_01">
+											<i class="tag">DX事業戦略</i>
+											<i class="tag">リモート可</i>
+										</div>
+										<h3 class="box_tit"><span>大手HWメーカーのグローバル全拠点におけるDX推進支援</span></h3>
+										<div class="tag_wrap tags_02">
+											<i class="tag">メディア運営</i>
+											<i class="tag">編集</i>
+											<i class="tag">ライティング</i>
+										</div>
+										<ul class="info_wrap">
+											<li>
+												<p>稼働：週3（フルリモート+会議）</p>
+											</li>
+											<li>
+												<p>報酬：45万円/月</p>
+											</li>
+										</ul>
+									</div><!-- /.box_txt -->
+								</a><!-- /.box_inner -->
+							</div>
+							<div class="project_box slide">
+								<a href="../projects/detail.html" class="box_inner">
+									<figure class="box_img"><img data-lazy="../img/projects/project_img_02.jpg" alt="" width="550" height="352" loading="lazy"></figure>
+									<div class="box_txt">
+										<div class="tag_wrap tags_01">
+											<i class="tag">DX事業戦略</i>
+											<i class="tag">リモート可</i>
+										</div>
+										<h3 class="box_tit"><span>グローバル全拠点におけるDX推進支援</span></h3>
+										<div class="tag_wrap tags_02">
+											<i class="tag">メディア運営</i>
+											<i class="tag">編集</i>
+											<i class="tag">ライティング</i>
+										</div>
+										<ul class="info_wrap">
+											<li>
+												<p>稼働：週3（フルリモート+会議）</p>
+											</li>
+											<li>
+												<p>報酬：45万円/月</p>
+											</li>
+										</ul>
+									</div><!-- /.box_txt -->
+								</a><!-- /.box_inner -->
+							</div>
+							<div class="project_box slide">
+								<a href="../projects/detail.html" class="box_inner">
+									<figure class="box_img"><img data-lazy="../img/projects/project_img_03.jpg" alt="" width="550" height="352" loading="lazy"></figure>
+									<div class="box_txt">
+										<div class="tag_wrap tags_01">
+											<i class="tag">DX事業戦略</i>
+											<i class="tag">リモート可</i>
+										</div>
+										<h3 class="box_tit"><span>大手HWメーカーのグローバル全拠点におけるDX推進支援</span></h3>
+										<div class="tag_wrap tags_02">
+											<i class="tag">メディア運営</i>
+											<i class="tag">編集</i>
+											<i class="tag">ライティング</i>
+										</div>
+										<ul class="info_wrap">
+											<li>
+												<p>稼働：週3（フルリモート+会議）</p>
+											</li>
+											<li>
+												<p>報酬：45万円/月</p>
+											</li>
+										</ul>
+									</div><!-- /.box_txt -->
+								</a><!-- /.box_inner -->
+							</div>
+							<div class="project_box slide">
+								<a href="../projects/detail.html" class="box_inner">
+									<figure class="box_img"><img data-lazy="../img/top/project_img_04.jpg" alt="" width="550" height="352" loading="lazy"></figure>
+									<div class="box_txt">
+										<div class="tag_wrap tags_01">
+											<i class="tag">DX事業戦略</i>
+											<i class="tag">リモート可</i>
+										</div>
+										<h3 class="box_tit"><span>大手HWメーカー</span></h3>
+										<div class="tag_wrap tags_02">
+											<i class="tag">メディア運営</i>
+											<i class="tag">編集</i>
+											<i class="tag">ライティング</i>
+										</div>
+										<ul class="info_wrap">
+											<li>
+												<p>稼働：週3（フルリモート+会議）</p>
+											</li>
+											<li>
+												<p>報酬：45万円/月</p>
+											</li>
+										</ul>
+									</div><!-- /.box_txt -->
+								</a><!-- /.box_inner -->
+							</div>
+						</div><!-- /.slide_wrapper -->
+					</div><!-- /.slide_container -->
+				</section><!-- /.recom_wrap -->
+			</div>
+		</div>
+		<footer class="footer" id="footer">
+			<div class="footer_inner wrap_01">
+				<nav class="footer_nav">
+					<div class="nav_wrap">
+						<p class="nav_tit">職種から探す</p>
+						<ul class="nav_list">
+							<li><a href="../projects/">一般事務（999）</a></li>
+							<li><a href="../projects/">一般事務（999）</a></li>
+							<li><a href="../projects/">一般事務（999）</a></li>
+							<li><a href="../projects/">一般事務（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">広報（999）</a></li>
+							<li><a href="../projects/">広報（999）</a></li>
+							<li><a href="../projects/">広報（999）</a></li>
+							<li><a href="../projects/">広報（999）</a></li>
+						</ul>
+					</div>
+					<div class="nav_wrap">
+						<p class="nav_tit">業界から探す</p>
+						<ul class="nav_list">
+							<li><a href="../projects/">小売/物流（999）</a></li>
+							<li><a href="../projects/">公共（999）</a></li>
+							<li><a href="../projects/">医療/福祉（999）</a></li>
+							<li><a href="../projects/">通信（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+						</ul>
+					</div>
+					<div class="nav_wrap">
+						<p class="nav_tit">勤務地から探す</p>
+						<ul class="nav_list">
+							<li><a href="../projects/">小売/物流（999）</a></li>
+							<li><a href="../projects/">公共（999）</a></li>
+							<li><a href="../projects/">医療/福祉（999）</a></li>
+							<li><a href="../projects/">通信（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+						</ul>
+					</div>
+					<div class="nav_wrap">
+						<p class="nav_tit">こだわり条件から探す</p>
+						<ul class="nav_list">
+							<li><a href="../projects/">小売/物流（999）</a></li>
+							<li><a href="../projects/">公共（999）</a></li>
+							<li><a href="../projects/">医療/福祉（999）</a></li>
+							<li><a href="../projects/">通信（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">営業事務・営業アシスタント（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">総務・人事・労務（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+							<li><a href="../projects/">法務・知財（999）</a></li>
+						</ul>
+					</div>
+				</nav><!-- /.footer_nav -->
+			</div><!-- /.footer_inner -->
+			<div class="footer_inner wrap_02">
+				<div class="footer_logo">
+					<a href="../">
+						<img src="../img/common/footer_logo.svg" alt="フリーコンサルワークス" width="571" height="84" loading="lazy"></a>
+				</div>
+				<div class="footer_desc">高単価・リモート・長期から短期まで幅広い案件を網羅！<br>フリーランスコンサルタントのための案件マッチングサイト</div>
+				<ul class="footer_sbnav">
+					<li><a href="../privacy/">個人情報保護方針</a></li>
+					<li><a href="../kiyaku/">利用規約</a></li>
+					<li><a href="../disclaimer/">免責事項</a></li>
+					<li><a href="../requirements/">推奨環境</a></li>
+				</ul>
+			</div><!-- /.footer_inner -->
+		</footer>
+	</div><!-- /.wrapper -->
+	<script src="../js/common.js"></script>
+	<script src="../js/slick/slick.min.js" defer></script>
+	<script src="../js/projects.js" defer></script>
+</body>
+
+</html>

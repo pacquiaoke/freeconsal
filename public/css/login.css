@@ -1,0 +1,472 @@
+@charset "UTF-8";
+
+.article {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 0.15);
+  margin: 0 auto;
+  margin: 0 auto;
+  max-width: 1040px;
+  max-width: 450px;
+  padding: 40px 75px 55px;
+  width: 100%;
+}
+.article_head h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  line-height: 1.45;
+  margin-bottom: 35px;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+}
+.article_head h1::after {
+  background: linear-gradient(90deg, #2188d5 0%, #235bb8 50%, #235bb8 50%, #1b468d 100%);
+  background-position: left center;
+  background-size: 200% 100%;
+  border-radius: 2px;
+  content: "";
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  top: 100%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 60px;
+}
+.article_body p,
+.article_body li,
+.article_body dl,
+.article_body dd {
+  font-size: 1.5rem;
+  hanging-punctuation: allow-end;
+  letter-spacing: 0.07em;
+  line-break: strict;
+  line-height: 2;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.article_body p a,
+.article_body li a,
+.article_body dd a {
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.page_login .article .login_form {
+  position: relative;
+}
+.page_login .article .login_form input,
+.page_login .article .login_form select,
+.page_login .article .login_form button,
+.page_login .article .login_form textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #000;
+  font: inherit;
+  font-weight: 400;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+.page_login .article .login_form input::-webkit-input-placeholder, .page_login .article .login_form textarea::-webkit-input-placeholder {
+  color: #bbb;
+}
+.page_login .article .login_form input::-moz-placeholder, .page_login .article .login_form textarea::-moz-placeholder {
+  color: #bbb;
+}
+.page_login .article .login_form input:-ms-input-placeholder, .page_login .article .login_form textarea:-ms-input-placeholder {
+  color: #bbb;
+}
+.page_login .article .login_form input::-ms-input-placeholder, .page_login .article .login_form textarea::-ms-input-placeholder {
+  color: #bbb;
+}
+.page_login .article .login_form input::placeholder,
+.page_login .article .login_form textarea::placeholder {
+  color: #bbb;
+}
+.page_login .article .login_form input[type="reset"],
+.page_login .article .login_form input[type="submit"],
+.page_login .article .login_form input[type="button"],
+.page_login .article .login_form button {
+  cursor: pointer;
+  font: inherit;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.page_login .article .login_form .form_label {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+.page_login .article .login_form .form_label span {
+  font-weight: 700;
+}
+.page_login .article .login_form .form_label i {
+  color: var(--attention-color-red);
+  font-style: normal;
+  margin-left: 10px;
+}
+.page_login .article .login_form .form_input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.page_login .article .login_form .form_input input,
+.page_login .article .login_form .form_input textarea {
+  background: #fff;
+  border: 1px solid var(--border-color-base);
+  border-radius: 8px;
+  font-family: inherit;
+  padding: 11px 25px 12px;
+  width: 100%;
+}
+.page_login .article .login_form .form_input p {
+  margin-bottom: 0;
+}
+.page_login .article .login_form .form_btn {
+  width: 100%;
+}
+.page_login .article .login_form .form_btn .submit {
+  align-items: center;
+  background: linear-gradient(90deg, #2188d5 0%, #235bb8 50%, #235bb8 50%, #1b468d 100%);
+  background-position: left center;
+  background-size: 200% 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgb(35 100 190 / 0.27);
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 0.07em;
+  margin: 0 auto;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+.page_login .article .login_form .form_btn .submit::after {
+  background-image: url(../img/common/arr_white.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.page_login .article .login_form .form_btn .member {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgb(35 100 190 / 0.27);
+  color: var(--main-color);
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+.page_login .article .login_form .form_btn .member::after {
+  background-image: url(../img/common/arr_blue.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.page_login .article .login_form .btn_wrap {
+  margin-top: 32px;
+}
+.page_login .article .login_form .btn_wrap p {
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.page_login .article .login_form .btn_wrap p a {
+  color: var(--main-color);
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0;
+  opacity: 1;
+  position: relative;
+  transition: opacity 0.3s ease-in-out;
+}
+.page_login .article .login_form .btn_wrap p.link_txt {
+  margin: 22px 0 36px;
+}
+.page_login .article .login_form .btn_wrap p.link_txt a::after {
+  background: var(--main-color);
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+.wrapper {
+  background: var(--bg-gray);
+}
+@media (hover: none) {
+  .article_body p a,
+  .article_body li a,
+  .article_body dd a {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0);
+  }
+  .article_body p a:active,
+  .article_body li a:active,
+  .article_body dd a:active {
+    opacity: 0.65;
+    text-decoration: underline;
+  }
+  .page_login .article .login_form input[type="reset"],
+  .page_login .article .login_form input[type="submit"],
+  .page_login .article .login_form input[type="button"],
+  .page_login .article .login_form button {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0);
+  }
+  .page_login .article .login_form input[type="reset"]:active,
+  .page_login .article .login_form input[type="submit"]:active,
+  .page_login .article .login_form input[type="button"]:active,
+  .page_login .article .login_form button:active {
+    opacity: 0.65;
+  }
+  .page_login .article .login_form .form_btn .submit {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0);
+  }
+  .page_login .article .login_form .form_btn .submit:active {
+    background-position: 100% center;
+  }
+  .page_login .article .login_form .form_btn .submit {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0);
+  }
+  .page_login .article .login_form .form_btn .submit:active {
+    opacity: 1;
+  }
+  .page_login .article .login_form .form_btn .member {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0);
+  }
+  .page_login .article .login_form .form_btn .member:active {
+    background: var(--main-color);
+    background-position: 100% center;
+    color: #fff;
+  }
+  .page_login .article .login_form .form_btn .member:active::after {
+    background-image: url(../img/common/arr_white.svg);
+  }
+  .page_login .article .login_form .form_btn .member {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0);
+  }
+  .page_login .article .login_form .form_btn .member:active {
+    opacity: 1;
+  }
+  .page_login .article .login_form .btn_wrap p a {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0);
+  }
+  .page_login .article .login_form .btn_wrap p a:active {
+    opacity: 0.65;
+    text-decoration: underline;
+  }
+  .page_login .article .login_form .btn_wrap p.link_txt a {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0);
+  }
+  .page_login .article .login_form .btn_wrap p.link_txt a:active {
+    text-decoration: none;
+  }
+}
+@media (-ms-high-contrast: none), (-ms-high-contrast: active), (-moz-touch-enabled: 0), (hover: hover) {
+  .article_body p a:hover,
+  .article_body li a:hover,
+  .article_body dd a:hover {
+    opacity: 0.65;
+    text-decoration: underline;
+  }
+  .page_login .article .login_form input[type="reset"]:hover,
+  .page_login .article .login_form input[type="submit"]:hover,
+  .page_login .article .login_form input[type="button"]:hover,
+  .page_login .article .login_form button:hover {
+    opacity: 0.65;
+  }
+  .page_login .article .login_form .form_btn .submit:hover {
+    background-position: 100% center;
+  }
+  .page_login .article .login_form .form_btn .submit:hover {
+    opacity: 1;
+  }
+  .page_login .article .login_form .form_btn .member:hover {
+    background: var(--main-color);
+    background-position: 100% center;
+    color: #fff;
+  }
+  .page_login .article .login_form .form_btn .member:hover::after {
+    background-image: url(../img/common/arr_white.svg);
+  }
+  .page_login .article .login_form .form_btn .member:hover {
+    opacity: 1;
+  }
+  .page_login .article .login_form .btn_wrap p a:hover {
+    opacity: 0.65;
+    text-decoration: underline;
+  }
+  .page_login .article .login_form .btn_wrap p.link_txt a:hover {
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 601px), print {
+  .wrapper .page_login {
+    padding: 51px 20px 100px;
+  }
+}
+@media screen and (min-width: 961px), print {
+  .page_login .article .login_form .form_btn .submit {
+    font-size: 1.7rem;
+    height: 70px;
+  }
+  .page_login .article .login_form .form_btn .member {
+    font-size: 1.8rem;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .article {
+    border-radius: 4px;
+  }
+  .article {
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 0.15);
+  }
+  .article_head h1 {
+    font-size: 20px;
+    margin: 0 -5% 22.5px;
+  }
+  .article_body p,
+  .article_body li,
+  .article_body dl,
+  .article_body dd {
+    font-size: 13.5px;
+    line-height: 1.78;
+  }
+  .page_login .article .login_form .form_label {
+    margin-bottom: 5px;
+  }
+  .page_login .article .login_form .form_input {
+    margin-bottom: 15px;
+  }
+  .page_login .article .login_form .form_input input,
+  .page_login .article .login_form .form_input textarea {
+    border-radius: 4px;
+    padding: 12.5px 12.5px 11.5px;
+  }
+  .page_login .article .login_form .form_btn .submit {
+    border-radius: 4px;
+  }
+  .page_login .article .login_form .form_btn .submit {
+    box-shadow: 0 0 5px 0 rgb(35 100 190 / 0.27);
+  }
+  .page_login .article .login_form .form_btn .submit {
+    font-size: 20px;
+    height: 55px;
+  }
+  .page_login .article .login_form .form_btn .member {
+    border-radius: 4px;
+  }
+  .page_login .article .login_form .form_btn .member {
+    box-shadow: 0 0 5px 0 rgb(35 100 190 / 0.27);
+  }
+  .page_login .article .login_form .form_btn .member {
+    font-size: 15px;
+    height: 42.5px;
+  }
+  .page_login .article .login_form .btn_wrap {
+    margin-top: 22.5px;
+  }
+  .page_login .article .login_form .btn_wrap p {
+    margin-bottom: 15px;
+  }
+  .page_login .article .login_form .member_wrap p {
+    margin-bottom: 10px;
+  }
+  .wrapper .page_login {
+    padding: 23px 20px 47px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .wrapper #footer {
+    margin-top: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .article {
+    padding: 6vw 5.3333vw 13.7333vw;
+  }
+  .article_head h1 {
+    font-size: 5.3333vw;
+    margin: 0 -5% 6vw;
+  }
+  .article_head h1::after {
+    height: 0.8vw;
+    width: 11.3333vw;
+  }
+  .article_body p,
+  .article_body li,
+  .article_body dl,
+  .article_body dd {
+    font-size: 3.6vw;
+  }
+  .page_login .article .login_form {
+    margin-top: -2vw;
+  }
+  .page_login .article .login_form .form_label {
+    margin-bottom: 1.3333vw;
+  }
+  .page_login .article .login_form .form_input {
+    margin-bottom: 4vw;
+  }
+  .page_login .article .login_form .form_input input,
+  .page_login .article .login_form .form_input textarea {
+    padding: 3.3333vw 3.3333vw 3.0667vw;
+  }
+  .page_login .article .login_form .form_btn .submit {
+    font-size: 5.3333vw;
+    height: 14.6667vw;
+  }
+  .page_login .article .login_form .form_btn .member {
+    font-size: 4vw;
+    height: 11.3333vw;
+  }
+  .page_login .article .login_form .btn_wrap {
+    margin-top: 6vw;
+  }
+  .page_login .article .login_form .btn_wrap p {
+    margin-bottom: 4vw;
+  }
+  .page_login .article .login_form .btn_wrap p {
+    line-height: 1.78;
+  }
+  .page_login .article .login_form .btn_wrap p a {
+    font-size: 3.6vw;
+  }
+  .page_login .article .login_form .btn_wrap p.link_txt {
+    margin: 3.3333vw 0 5.0667vw;
+  }
+  .page_login .article .login_form .member_wrap p {
+    margin-bottom: 2.6667vw;
+  }
+  .wrapper .page_login {
+    padding: 6.1333vw 5.3vw 12.5333vw;
+  }
+}
